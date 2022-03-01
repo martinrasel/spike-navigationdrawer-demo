@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_add_cart"
+            android:icon="@drawable/ic_new_cart"
+            android:title="Add new cart" />
+
+        <item
+            android:id="@+id/nav_actual_cart"
+            android:icon="@drawable/ic_actual_cart"
+            android:title="Actual cart" />
+
+        <item
+            android:id="@+id/nav_list_carts"
+            android:icon="@drawable/ic_list_all"
+            android:title="All carts" />
+    </group>
+
+    <item android:title="Some Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_photo_bill"
+                android:icon="@drawable/ic_photo_bill"
+                android:title="Photo your bill" />
+
+            <item
+                android:id="@+id/nav_show_chart"
+                android:icon="@drawable/ic_show_costs"
+                android:title="Show chart" />
+        </menu>
+    </item>
+</menu>
